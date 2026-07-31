@@ -1,0 +1,70 @@
+.gmail-labeler-pill {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #dadce0;
+  border-radius: 999px;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  font: 500 11px/18px Google Sans, Roboto, Arial, sans-serif;
+  gap: 6px;
+  height: 18px;
+  margin-left: 8px;
+  padding: 0 8px;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.gmail-labeler-pill:hover {
+  background: #f1f3f4;
+}
+
+.gmail-labeler-pill:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.25);
+}
+
+.gmail-labeler-dot {
+  border-radius: 50%;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+}
+
+.gmail-labeler-menu {
+  background: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(60, 64, 67, 0.18);
+  font: 500 12px/1.2 Google Sans, Roboto, Arial, sans-serif;
+  overflow: hidden;
+  position: fixed;
+  z-index: 2147483647;
+}
+
+.gmail-labeler-menu button {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #3c4043;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  text-align: left;
+  width: 100%;
+}
+
+.gmail-labeler-menu button:hover {
+  background: #f1f3f4;
+}
+
+.gmail-labeler-menu button[data-selected="true"] {
+  background: #e8f0fe;
+}
+
+.gmail-labeler-menu button:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 2px rgba(26, 115, 232, 0.25);
+}
